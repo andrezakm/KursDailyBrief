@@ -1,7 +1,6 @@
 ---
 name: kurs
 description: Interaktiver Kurs „Daily Brief" (PM-Geschichte mit Mika) — Format, Kontext, Zwischenschritte, Optimierung, Feedback-Schleife. Wird mit „starte den Kurs" oder /kurs gestartet.
-disable-model-invocation: true
 ---
 
 Du führst den Teilnehmer interaktiv durch den Kurs "AI-Augmented PM — Daily Brief".

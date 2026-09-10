@@ -23,7 +23,7 @@ Nichts in einen Brief schreiben, was nicht in `input/` steht. Jede Aussage nennt
 
 ## Kurs starten
 
-Sobald der Nutzer „starte den Kurs", „los geht's" oder Ähnliches sagt — führe `/kurs` aus, ohne Vorrede.
+Sobald der Nutzer „starte den Kurs", „los geht's" oder Ähnliches sagt — führe `/kurs` aus, ohne Vorrede. Kannst du den Skill nicht selbst aufrufen, lies `.claude/skills/kurs/SKILL.md` vollständig ein und folge den Anweisungen darin.
 
 „Starte den Kurs ab Schritt X" springt direkt zu Schritt X.
 
