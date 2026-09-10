@@ -180,7 +180,7 @@ Falls dein Agent etwas ganz anderes gebaut hat, als hier beschrieben: Erklär ih
 
 **Lernziel:** Du erlebst den Unterschied zwischen statischem Kontext (`context/`) und dynamischem Kontext (`input/`) — und siehst, was passiert, wenn dein Agent nicht weiß, welcher Tag in Mikas Welt "heute" ist.
 
-Schau kurz in deinen Brief aus Schritt 3: Welches Datum trägt der Dateiname `output/brief-…`? Steht dort das heutige, echte Datum — nicht der 18. März 2025 —, dann hat dein Agent sich das Datum selbst ausgedacht, weil niemand es ihm gesagt hat. Was du nicht mitgibst, rät die AI.
+Schau kurz in deinen Brief aus Schritt 3: Welches Datum trägt der Dateiname `output/brief-…`? Steht dort das heutige, echte Datum — nicht der 18. März 2025 —, dann hat dein Agent geraten, weil niemand ihm gesagt hat, welcher Tag in Mikas Welt "heute" ist. Steht dort der 18. März, hat er es aus dem Kalender gelesen, ohne dass du es verlangt hast — heute richtig, morgen vielleicht nicht. Was du nicht mitgibst, rät die AI, auch wenn sie richtig rät.
 
 Frage 2 aus Schritt 2: Welchen Kontext brauche ich? Tippe genau das:
 
