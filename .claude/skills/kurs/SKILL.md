@@ -496,7 +496,7 @@ Die Brücke zur eigenen Nutzung, ganz konkret:
 
 - Morgen früh: `/dailybrief`.
 
-Schreib deinen nächsten Schritt auf — hier in den Chat oder auf einen Zettel — und bring ihn mit in die Office Hours.
+Schreib deinen nächsten Schritt auf — hier in den Chat oder auf einen Zettel — und bring ihn mit in den nächsten Call.
 
 ```
 ─────────────────────────────────────
@@ -534,4 +534,4 @@ Du hast heute für Mika ein eigenes System gebaut, kein einzelnes Ergebnis:
 
 > **Format, Kontext, Vorgehen — der Brief ist ein System, kein Prompt.**
 
-Bis zu den Office Hours.
+Bis zum nächsten Call.
