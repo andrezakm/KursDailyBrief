@@ -202,7 +202,7 @@ Tippe:
 
 *Falls dein Werkzeug den Skill nicht anbietet: „Lies .claude/skills/dailybrief/SKILL.md und tu, was drinsteht."*
 
-Vergleiche v2 mit v1: Stimmt das Datum jetzt? Steht hinter jeder Aussage in Klammern, woher sie kommt? Wenn nicht, sag deinem Agenten, was fehlt, und lass ihn den Skill nachschärfen.
+Vergleiche v2 mit v1: Stimmt das Datum jetzt? Steht hinter jeder Aussage in Klammern, woher sie kommt? Wenn nicht, sag deinem Agenten, was fehlt, und lass ihn den Skill nachschärfen. Das gilt für alles andere, was dir an v2 auffällt: ein Satz an deinen Agenten, was anders sein soll.
 
 **Die Erkenntnis:** Die Prioritäten im Brief sind jetzt Mikas, nicht die deines Agenten — und jede einzelne Zeile ist nachprüfbar.
 
@@ -249,7 +249,7 @@ Prüf deinen Brief v3 gegen vier Fragen:
 - Stehen die beiden Aufgaben aus den gestrigen Meetings drin — der Vorschlag für LogiTrans bis 16:00, der Einseiter für 14:00?
 - Steht die Budgetgrenze aus dem Transkript drin, die in der automatischen Zusammenfassung des Meetings fehlt?
 
-Fehlt etwas davon: kein Beinbruch, dafür ist Schritt 6 da. Und falls du es sofort beheben willst: Sag deinem Agenten, was fehlt, und lass ihn den Skill anpassen, nicht den Brief. Den Brief flickst du nie von Hand — er entsteht morgen wieder neu.
+Fehlt etwas davon: kein Beinbruch, dafür ist Schritt 6 da. Und falls du es sofort beheben willst: Sag deinem Agenten, was fehlt, und lass ihn den Skill anpassen, nicht den Brief. Den Brief flickst du nie von Hand — er entsteht morgen wieder neu. Und fällt dir etwas ganz anderes auf, das in den vier Fragen nicht vorkommt: gleicher Weg.
 
 **Die Erkenntnis:** Kleinere Schritte mit gezieltem Kontext bringen bessere Ergebnisse — dieselbe Regel wie in Woche 1. Hat dein v3 mehr gefunden als v2, hast du sie gerade selbst erlebt. Hat schon v2 alles gefunden, liest dein Modell von sich aus gründlich — das Vorgehen im Skill sorgt dafür, dass es morgen wieder so ist.
 
@@ -342,7 +342,7 @@ Tippe:
 
 *Falls dein Werkzeug den Skill nicht anbietet: „Lies .claude/skills/dailybrief/SKILL.md und tu, was drinsteht."*
 
-Öffnet sich die Seite nicht von selbst: Doppelklick auf `output/brief-….html`. Hak zwei Punkte ab und lade die Seite neu. Bleiben die Häkchen? Wenn nicht, sag es deinem Agenten — "Die Häkchen verschwinden beim Neuladen" — und lass ihn die Speicherung im Skill nachbessern.
+Öffnet sich die Seite nicht von selbst: Doppelklick auf `output/brief-….html`. Hak zwei Punkte ab und lade die Seite neu. Bleiben die Häkchen? Wenn nicht, sag es deinem Agenten — "Die Häkchen verschwinden beim Neuladen" — und lass ihn die Speicherung im Skill nachbessern. Stört dich etwas anderes an der Seite — zu eng, zu bunt, falsche Reihenfolge —: gleicher Weg, ein Satz an deinen Agenten.
 
 **Die Erkenntnis:** Das Format ist Teil des Ergebnisses. Derselbe Skill, dieselben Daten — aber erst als Seite wird der Brief zum Werkzeug für den Tag, nicht nur zum Text, den du einmal liest. Ab jetzt hast du einen kompletten Skill `/dailybrief`.
 
@@ -458,7 +458,7 @@ Dann:
 
 *Falls dein Werkzeug den Skill nicht anbietet: „Lies .claude/skills/dailybrief/SKILL.md und tu, was drinsteht."*
 
-Du bekommst einen neuen Brief, als Markdown und als Seite. Öffne danach `context/vorlieben.md` und schau, was dort steht. Und wirf einen Blick in `.claude/skills/dailybrief/SKILL.md`: Sie sollte unverändert sein. Hat dein Agent sie doch angefasst, sag ihm, dass `/brief-feedback` nur die Vorlieben-Datei ändern darf, und lass ihn die Änderung zurücknehmen.
+Du bekommst einen neuen Brief, als Markdown und als Seite. Öffne danach `context/vorlieben.md` und schau, was dort steht. Und wirf einen Blick in `.claude/skills/dailybrief/SKILL.md`: Sie sollte unverändert sein. Hat dein Agent sie doch angefasst, sag ihm, dass `/brief-feedback` nur die Vorlieben-Datei ändern darf, und lass ihn die Änderung zurücknehmen. Und alles, was dir am neuen Brief nicht gefällt, geht ab jetzt über `/brief-feedback` — nicht mehr über den Skill.
 
 **Die Erkenntnis:** Der Skill `/dailybrief` hat sich nicht geändert — die Datei daneben schon. Nach zehn Tagen Feedback ist der Skill noch derselbe, und der Brief ist trotzdem deiner. Und du siehst jede Änderung, nichts passiert unsichtbar im Hintergrund.
 
