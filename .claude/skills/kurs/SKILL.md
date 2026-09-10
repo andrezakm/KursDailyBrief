@@ -44,7 +44,7 @@ Statt sich durch vier Programme zu klicken, baut Mika sich dafür einen Daily Br
 
 Zehn Schritte. Am Ende hast du einen eigenen Skill `/dailybrief`, der jeden Morgen einen Brief für dich schreiben könnte. Ein Skill ist ein aufgeschriebenes Vorgehen mit einem Namen, den du aufrufen kannst — mehr dazu in Schritt 3.
 
-Noch eine Einstellung, bevor es losgeht: Dein Werkzeug fragt vor jedem Schreiben in eine Datei nach deiner Erlaubnis, solange du das nicht änderst. Willst du jeden Schritt und jede Datei sehen, bevor sie entsteht, lass es dabei — das ist der Schrittmodus. Willst du, dass dein Agent einfach baut, stell auf automatisch; je nach Werkzeug heißt das "Auto", "Allow all" oder "Accept edits". Viele fangen im Schrittmodus an und schalten um, sobald sie dem automatischen Schreiben trauen. Wie das in deinem Werkzeug geht, steht in der README.
+Noch eine Einstellung, bevor es losgeht: Dein Werkzeug fragt vor jedem Schreiben in eine Datei nach deiner Erlaubnis, solange du das nicht änderst. Willst du jeden Schritt und jede Datei sehen, bevor sie entsteht, lass es dabei — das ist der Schrittmodus. Willst du, dass dein Agent einfach baut, stell auf automatisch; je nach Werkzeug heißt das "Auto", "Allow All" oder "Accept edits". Viele fangen im Schrittmodus an und schalten um, sobald sie dem automatischen Schreiben trauen. Wie das in deinem Werkzeug geht, steht in der README.
 
 Kennst du den Aufbau schon oder hast du es eilig? Dann sag "Starte den Kurs ab Schritt 9" — dort wartet ein einziger Prompt, das Sprungbrett, der den kompletten Skill in einem Rutsch anlegt.
 

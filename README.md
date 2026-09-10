@@ -65,8 +65,8 @@ Der entpackte Ordner heißt `KursDailyBrief-main`. Wichtig: Es muss der Ordner s
 
 Dein Agent fragt vor jedem Schreiben in eine Datei nach Erlaubnis, solange du das nicht änderst. Willst du jede Datei sehen, bevor sie entsteht, lass es dabei. Willst du, dass er einfach baut, schalte um — jederzeit, auch mitten im Kurs:
 
-- **Weg A (VS Code mit Copilot):** Beim ersten Schreiben erscheint ein Dialog. „Allow" bestätigt einmal; im Ausklappmenü daneben gibt es „Always allow" für den Rest der Sitzung. Alternativ die Einstellung `chat.tools.autoApprove`.
-- **Weg B (Claude Code):** Im Terminal `Shift+Tab` drücken, bis „accept edits" angezeigt wird. In der Desktop-App den Auto-Modus einschalten.
+- **Weg A (VS Code mit Copilot):** In der Modus-Auswahl des Chats „Default Permissions" lassen, dann fragt Copilot vor jedem Schreiben. Oder auf „Allow All" stellen, dann baut er ohne Rückfragen.
+- **Weg B (Claude Code):** In der Desktop-App zwischen „Manuell" und „Auto" umschalten. Im Terminal `Shift+Tab` drücken, bis „accept edits" angezeigt wird.
 
 Die genauen Bezeichnungen ändern sich mit den Versionen — gemeint ist immer dasselbe. Viele fangen im Schrittmodus an und schalten um, sobald sie dem automatischen Schreiben trauen.
 
