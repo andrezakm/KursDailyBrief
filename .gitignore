@@ -1,0 +1,10 @@
+.DS_Store
+output/*
+!output/.gitkeep
+
+# Entsteht lokal im Kurs — nicht einchecken
+.claude/skills/dailybrief/
+.claude/skills/brief-feedback/
+.claude/settings.local.json
+context/vorlieben.md
+context/ich.md
